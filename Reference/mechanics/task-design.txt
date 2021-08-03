@@ -1,0 +1,33 @@
+basic task
+1.行走+小跑
+目前主流的四足都是-Roll-Pitch-Pitch的12自由度的结构设计，能够保证稳定的行走和小跑 
+可多收集不同类型的腿部设计结构，总结每种结构的优略性，集成优点进行设计
+	reference:
+		1.spot系列
+		2.cheetah系列
+		3.laikago系列
+		4.ETH系列
+		5.updating。。。。。。
+
+
+
+bonus Task：
+1.转身
+真正的狗转身时会先摆动前腿，结构腰部转动，实现头部朝向改变，而目前的四足机器人由于没有脊髓结构，身体上没有自由度，往往是通过四条腿的碎步实现转向，动作较慢，也较为生硬
+   1.在腰部添加一个转动关节，可以实现后腿不摆动的情况下转身
+	reference：
+	1.2020-四足脊髓研究概述
+	2.可变刚度的四足机器人被动柔顺脊柱设计与应用_张秀丽
+
+
+
+2.仿生肌肉
+肌肉不仅能够起到储存能量，提供爆发所需的动力，同时还能缓冲冲击，通过为机器人的关节处添加弹簧，可以模拟生物肌肉、肌腱 和软骨在缓冲冲击和存储能量方面的特性。运动 过程中，机器人机械能与弹簧弹性势能间频繁实现 能量转换，减小与地面的冲击振动。 ETH的StarlETH是一个很好的例子
+	reference:
+	1.https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6930798
+	2.Toward_Combining_Speed_Efficiency_Versatility_and_Robustness_in_an_Autonomous_Quadruped
+3.跳跃
+
+
+4.捡球
+
